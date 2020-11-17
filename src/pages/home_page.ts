@@ -12,10 +12,10 @@ export default class HomePage extends BasePage {
 
     constructor() {
         super();
-        this.appLogo = ReactSelector('img').withProps('alt', /Logo/i);
+        this.appLogo = ReactSelector('img').withProps({ 'alt': 'logo', 'className': 'welcome-logo' });
         this.detailsButton = ReactSelector('button').withText(/Details/i);
-        this.startButton = ReactSelector('button').withText(/Start/i);
         this.mainTitle = ReactSelector('h3').withProps({'className': 'welcome-intro'});
+        this.startButton = ReactSelector('button').withText(/Start/i);
         this.welcomeBlock = ReactSelector('div').withProps({ 'className': 'welcome-block' });
         this.welcomeDescription = ReactSelector('p').withProps({ 'className': 'welcome-description'});
     }
