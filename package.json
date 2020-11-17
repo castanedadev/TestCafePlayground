@@ -1,0 +1,28 @@
+{
+  "name": "testcafe-automation",
+  "version": "1.0.0",
+  "description": "QA Automation",
+  "main": "index.js",
+  "dependencies": {
+    "testcafe": "^1.9.4",
+    "testcafe-react-selectors": "^4.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/castanedadev/TestCafePlayground.git"
+  },
+  "keywords": [
+    "qa",
+    "automation"
+  ],
+  "author": "Rick Castaneda (rickcastaneda@outlook.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/castanedadev/TestCafePlayground/issues"
+  },
+  "homepage": "https://github.com/castanedadev/TestCafePlayground#readme"
+}
